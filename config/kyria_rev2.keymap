@@ -6,8 +6,8 @@ e /*
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#define DEFAULT 0
-#define NUMROW 1
+#define DEFAULT 1
+#define NUMROW 2
 / {
     keymap 
         compatible = "zmk,keymap";
