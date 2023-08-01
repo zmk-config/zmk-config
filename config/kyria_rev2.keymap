@@ -9,6 +9,7 @@ e /*
 #define DEFAULT 1
 #define NUMROW 2
 / {
+    keymap {    
     keymap 
         compatible = "zmk,keymap";
 
