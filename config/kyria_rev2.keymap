@@ -9,8 +9,7 @@
 #define DEFAULT 0
 #define NUMROW 1
 / {
-    keymap {    
-    keymap 
+    keymap { 
         compatible = "zmk,keymap";
 
         default_layer {
