@@ -6,8 +6,8 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#define DEFAULT 1
-#define NUMROW 2
+#define DEFAULT 0
+#define NUMROW 1
 / {
     keymap {    
     keymap 
