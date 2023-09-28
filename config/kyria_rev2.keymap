@@ -22,12 +22,12 @@
 // |  ESC  |  Q  |  W  |  E   |  R   |  T   |                                          |  Y   |  U    |  I    |  O   |   P   |   BSPC  |
 // |  LGUI  |  A  |  S  |  D   |  F   |  G    |                                          |  H   |  J    |  K    |  L   |   +   |   K_APP  |
 // | LCTRL  |  Z  |  X  |  C   |  V   |  B    |  &mo 1 |   SPACE   |  |  &mo 1  |   ;   |   `   |  N    |  M    |  [   |   ]   |  ENTER  |
-//                     |  -  | BSLH  | LALT  |  LSHFT  |   SPACE   |  |   bt_clr   |  ,  | RALT  | .  | / |
+//                     |  -  | BSLH  | LALT  |  LSHFT  |   SPACE   |  |   &mo 1   |  ,  | RALT  | .  | / |
             bindings = <
     &kp ESC   &kp Q &kp W &kp E &kp R &kp T                                                &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
     &kp LGUI   &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp PLUS &kp K_APP
     &kp LCTRL &kp Z &kp X &kp C &kp V &kp B &mo NUMROW &kp SPACE                 &mo NUMROW &kp SEMI &kp SQT &kp N  &kp M &kp LBKT &kp RBKT &kp ENTER
-                   &kp MINUS &kp BSLH &kp LALT &kp LSHFT &kp SPACE         &bt BT_CLR &kp COMMA &kp RALT &kp DOT &kp FSLH  >;
+                   &kp MINUS &kp BSLH &kp LALT &kp LSHFT &kp SPACE         &mo NUMROW &kp COMMA &kp RALT &kp DOT &kp FSLH  >;
              sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 };
     numrow_layer {
