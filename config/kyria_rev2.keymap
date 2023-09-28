@@ -10,7 +10,7 @@
 #define DEFAULT 0
 #define NUMROW 1
 
-
+CONFIG_BT_CTLR_TX_PWR_PLUS_8=y
 
 
 / {
