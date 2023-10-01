@@ -32,12 +32,12 @@
     numrow_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
 // | 1  |  2  |  3  |  4   |  5   |  6   |                                          |  7   |  8    |  9    |  0   |   -   |   BSPC  |
-// |  LGUI  |  A  |  BLE  |  D   |  F   |  G    |                                          |  H   |  J    |  K    |  BLE   |   +   |   K_APP  |
+// |  LGUI  |  A  |  BLE  |  D   |  F   |  G    |                                          |  H   |  J    |  K    |  BLE   |   BLE OUT   |   RGB HUE  |
 // | LCTRL  |  Z  |  X  |  C   |  V   |  B    |  &mo 1 |   SPACE   |  |  &mo 1  |   ;   |   UP   |  N    |  M    |  [   |   ]   |  ENTER  |
 //                     |  -  | BSLH  | LALT  |  LSHFT  |   SPACE   |  |  &mo 1   |  LEFT  | DOWN  | RIGHT  | / |
             bindings = <
    &kp N1   &kp N2 &kp N3 &kp N4 &kp N5 &kp N6                                                &kp N7 &kp N8  &kp N9     &kp N0   &kp MINUS    &kp BSPC
-    &kp LGUI   &kp A &out OUT_BLE &bt BT_CLR &kp F &kp G                                                &kp H &kp J  &bt BT_CLR     &out OUT_BLE   &kp PLUS &kp K_APP
+    &kp LGUI   &kp A &out OUT_BLE &bt BT_CLR &kp F &kp G                                                &kp H &kp J  &bt BT_CLR     &out OUT_BLE   &kp PLUS &rgb_ug RGB_COLOR_HSB(128, 0,32)
     &kp LCTRL &kp Z &kp X &kp C &kp V &kp B &mo NUMROW &kp SPACE                  &mo NUMROW &kp UP &kp SQT &kp N  &kp M &kp LBKT &kp RBKT &kp ENTER
                      &kp MINUS &kp BSLH &kp LALT &kp LSHFT &kp SPACE        &mo NUMROW &kp LEFT  &kp DOWN &kp RIGHT &kp FSLH >;
 
